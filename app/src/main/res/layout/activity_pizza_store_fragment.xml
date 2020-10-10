@@ -4,18 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".fragments.PizzaStoreFragment"
     android:orientation="vertical">
 
-    <com.google.android.material.tabs.TabLayout
+    <ListView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:tabIndicatorColor="#000000"
-        android:id="@+id/mainTabLayout" />
-
-    <androidx.viewpager.widget.ViewPager
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/mainViewPager" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>
